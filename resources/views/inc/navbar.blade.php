@@ -14,7 +14,10 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/services">Service</a>
-          </li>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/posts">Blog</a>
+        </li>
         {{-- <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
         </li> --}}
