@@ -11,7 +11,21 @@
     <body class="antialiased">
         @include('inc.navbar')
         <div class="container">
+            @include('inc.messages')
             @yield('content')
         </div>
+        
+        {{-- <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+        CKEDITOR.replace( 'article-ckeditor' );
+        </script> --}}
+        
+        <script src="//cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+        <script>
+        CKEDITOR.replace( 'article-ckeditor' );
+
+        </script>
+
     </body>
 </html>
+
