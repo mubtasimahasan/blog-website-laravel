@@ -1,31 +1,3 @@
-  {{-- <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
-    <a class="navbar-brand" href="#">{{config('app.name', 'LSAPP')}}</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/services">Service</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/posts">Blog</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/posts/create">Create Post</a></li>
-      </ul>
-
-    </div>
-  </nav> --}}
-
   <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
@@ -79,7 +51,6 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/home">Dashboard</a>
-                            <a class="dropdown-item" href="/cart">Cart</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
